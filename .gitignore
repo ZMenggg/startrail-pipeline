@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+.pytest_cache/
+.coverage
+
+# Local application shims/binaries are machine-specific
+/darktable-cli
+/darktable-cli-wrapper.sh
+
+# Test photographs and generated outputs
+photos/input/*
+!photos/input/.gitkeep
+photos/completed/*
+!photos/completed/.gitkeep
+photos/output/*
