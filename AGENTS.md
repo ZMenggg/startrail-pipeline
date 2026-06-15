@@ -1,5 +1,8 @@
 # Star Trail Pipeline Agent Guide
 
+For step-by-step operation, decision rules, recovery, and user-facing status
+reports, read `AI_AGENT_MANUAL.md` before processing real photographs.
+
 ## Goal
 
 Build a safe, resumable, command-line workflow for processing hundreds of
@@ -46,4 +49,3 @@ The executable is `startrail`:
 - `startrail doctor`
 
 Each command must support `--help`, provide actionable errors, and log its work.
-
