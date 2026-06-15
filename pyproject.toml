@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "startrail-pipeline"
 version = "0.2.0"
-description = "Star trail batch processing pipeline for macOS"
+description = "Safe, resumable, RAW-first star trail processing pipeline for macOS"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -19,6 +19,12 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Topic :: Multimedia :: Graphics",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ZMenggg/startrail-pipeline"
+Documentation = "https://github.com/ZMenggg/startrail-pipeline/wiki"
+Issues = "https://github.com/ZMenggg/startrail-pipeline/issues"
+Changelog = "https://github.com/ZMenggg/startrail-pipeline/blob/main/CHANGELOG.md"
 
 dependencies = [
     "numpy>=1.24",
