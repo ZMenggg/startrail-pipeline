@@ -20,12 +20,6 @@ classifiers = [
     "Topic :: Multimedia :: Graphics",
 ]
 
-[project.urls]
-Homepage = "https://github.com/ZMenggg/startrail-pipeline"
-Documentation = "https://github.com/ZMenggg/startrail-pipeline/wiki"
-Issues = "https://github.com/ZMenggg/startrail-pipeline/issues"
-Changelog = "https://github.com/ZMenggg/startrail-pipeline/blob/main/CHANGELOG.md"
-
 dependencies = [
     "numpy>=1.24",
     "Pillow>=10.0",
@@ -34,6 +28,12 @@ dependencies = [
 
 [project.optional-dependencies]
 raw = ["rawpy>=0.18"]
+
+[project.urls]
+Homepage = "https://github.com/ZMenggg/startrail-pipeline"
+Documentation = "https://github.com/ZMenggg/startrail-pipeline/wiki"
+Issues = "https://github.com/ZMenggg/startrail-pipeline/issues"
+Changelog = "https://github.com/ZMenggg/startrail-pipeline/blob/main/CHANGELOG.md"
 
 [project.scripts]
 startrail = "startrail_pipeline.cli:main"
