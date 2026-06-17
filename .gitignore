@@ -6,6 +6,12 @@ __pycache__/
 .pytest_cache/
 .coverage
 
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
 # Local application shims/binaries are machine-specific
 /darktable-cli
 /darktable-cli-wrapper.sh
